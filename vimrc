@@ -1,9 +1,11 @@
 execute pathogen#infect()
 
-set nocompatible              " be iMproved, required
-filetype plugin indent on    " required
-
+set nocompatible
+filetype plugin indent on
 set encoding=utf-8
+
+" custom apparence
+colorscheme kolor
 
 " enable syntax highlighting
 syntax on
